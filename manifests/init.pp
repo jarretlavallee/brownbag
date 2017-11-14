@@ -8,4 +8,6 @@
 #   include brownbag
 class brownbag {
   notify { 'This is the brownbag class': }
+  include brownbag::install
+  include brownbag::config
 }
